@@ -32,6 +32,7 @@ SECRET_KEY = "django-insecure-cfx-fp4sp00ej*k@hoo2a3p(wtrgl3=_&x&6esdy(gpnw_fl^w
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ["https://lily-luxury.onrender.com", "https://.127.0.0.1"]
 
 
 # Application definition
